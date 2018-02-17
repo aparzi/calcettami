@@ -110,3 +110,9 @@ input[type=email]:not(.browser-default):focus:not([readonly]) {
 .text-opacity:hover {
     opacity: 0.7;
 }
+
+@media screen and (max-width: 980px) {
+    .a2a_floating_style {
+        display: none;
+    }
+}
